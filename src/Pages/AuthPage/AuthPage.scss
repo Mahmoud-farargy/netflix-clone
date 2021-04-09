@@ -19,11 +19,11 @@
             border-radius: 4px;
             background-color: rgba(0,0,0,0.75);
             margin: 0 auto;
-            min-width: 400px;
             @media screen and (min-width: 740px){
                 width: 450px;
                 padding: 60px 68px 40px;
                 min-height: 625px;
+                min-width: 400px;
             }
             .auth--box--inner{
                 h1{
@@ -114,7 +114,7 @@
         background-color: #000;
         background-image: none;
         .auth--body .auth--box{
-            width: 100%;
+            width: 94%;
             padding: 20px 5%;
         }
     } 

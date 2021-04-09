@@ -34,8 +34,9 @@ const Footer  = (props) => {
                 <div className="mt-4">
                         <LangSelector />
                 </div>
-                <div className="mt-4">
-                        <span className="netflix__area">Netflix Egypt</span> 
+                <div className="mt-4 flex-row">
+                        <span className="netflix__area mr-2">Netflix Egypt</span> 
+                        <span className="netflix__area">&copy; 2021 Mahmoud Farargy</span> 
                 </div>
 
                 </div>
