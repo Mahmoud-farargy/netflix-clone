@@ -1,0 +1,73 @@
+#Home {
+  margin: 0;
+  padding: 0 ;
+  color: #fff;
+  .jumbo--container {
+    .jumbo--inner {
+      width:100%;
+      justify-content: center;
+      align-items: center;
+      border-bottom: var(--border-style);
+      @media only screen and (max-width: 770px) {
+        flex-direction: column !important;
+       
+      }
+      .jumbo--left,.jumbo--right{
+        width:45%;
+        margin: 0 auto;
+        @media only screen and (max-width: 770px){
+          width:100%;
+          text-align:center;
+        }
+      }
+      .jumbo--left{
+        margin-right:10px;
+      }
+      .jumbo--right{
+       
+        @media only screen and (max-width: 770px) {
+          margin-top: 7px;
+        }
+      }
+      
+      .jumbo__subtitle{
+        font-size: 1.500rem;
+        font-weight: 400;
+        margin: .75em 0 .25em;
+        }
+        img{
+            object-fit: contain;
+            width:400px;
+            height: 300px;
+            margin: 0 auto;
+        }
+    }
+  }
+  .jumbo__title, .faq__title{
+          font-size: 3.00rem;
+          line-height: 1.1;
+          margin-bottom: 0.5rem;
+          font-weight:bold;
+          
+  }
+  .faq__title{
+    text-align:center;
+    margin-bottom:40px;
+    @media screen and (max-width:770px){
+      font-size: 1.625rem;
+    }
+  }
+}
+@media only screen and (max-width: 760px){
+  #Home .jumbo--container .jumbo--inner .jumbo__title{
+    font-size: 1.625rem;
+  }
+  #Home .jumbo--container .jumbo--inner .jumbo__subtitle{
+    font-size: 1.110rem;
+  }
+  #Home .jumbo--container .jumbo--inner .jumbo--right img{
+    width: 100%;
+    height:auto;
+    max-height:300px;
+  }
+}

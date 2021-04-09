@@ -1,0 +1,49 @@
+#mainFooter{
+    border-top: var(--border-style);
+    justify-content: center;
+    align-items:center;
+    padding-bottom: 25px;
+    .footer--inner{
+        margin: 0 auto;
+        .footer--links--ul{
+            padding:0;
+            margin:0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 160px);
+            list-style: none;
+            @media screen and (max-width: 300px){
+                grid-template-columns: 100%;
+            }
+            .footer--links--item{
+               padding:0;
+               margin-bottom: 13px;
+               padding-right: 12px;
+               min-width:100px;
+                display: inline-block;
+                vertical-align: top;
+                .footer--links--anchor{
+                    font-size: 13px !important;
+                    font-weight: 400;
+                    text-transform: capitalize;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .footer__top{
+        padding:0;
+        margin: 0 0 30px;
+        font-size: 16px !important;
+    }
+    .netflix__area{
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+    .footer__top, .footer--links--anchor, .netflix__area{
+        color: #757575;
+        text-decoration:none;
+    }
+}

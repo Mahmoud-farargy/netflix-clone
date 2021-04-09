@@ -1,0 +1,24 @@
+.footer--lang--selector{
+    border: 1px solid #333;
+    color: #999;
+    padding: 12px;
+    &:focus-within{
+        outline: 1px solid #4D90FE;
+        -webkit-box-shadow: 0px 0px 5px  #4D90FE;
+        box-shadow: 0px 0px 5px  #4D90FE;
+    }
+    svg{
+        font-size: 17px;
+        margin-right:6px;
+    }
+    select{
+        background-color: transparent;
+        color: #999;
+        border:none;
+        border-radius: 2px;
+        &:focus{
+            outline:none;
+        }
+    }
+    
+}

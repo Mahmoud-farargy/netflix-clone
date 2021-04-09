@@ -1,0 +1,121 @@
+#authMain{
+    width:100%;
+    min-height: 100vh;
+    height: 100%;
+    overflow:hidden;
+    display:block;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../Assets/images/EG-en-20210322-popsignuptwoweeks-perspective_alpha_website_large.jpeg");
+    overflow: hidden;
+    .auth--body{
+        padding-top: 70px;
+        width:100%;
+        align-items:center;
+        justify-content:center;
+        background-color: transparent;
+        .auth--box{
+            border-radius: 4px;
+            background-color: rgba(0,0,0,0.75);
+            margin: 0 auto;
+            min-width: 400px;
+            @media screen and (min-width: 740px){
+                width: 450px;
+                padding: 60px 68px 40px;
+                min-height: 625px;
+            }
+            .auth--box--inner{
+                h1{
+                    color: #fff;
+                    font-size: 32px;
+                    font-weight:700;
+                    margin-bottom: 28px;
+                }
+                .auth__submit__btn{
+                    font-size: 16px;
+                    font-weight: 700;
+                    margin: 24px 0 12px;
+                    @media screen and (min-width: 360px){
+                        padding: 16px;
+                    }
+                }
+                .auth--remember--option, .auth--remember--option div{
+                    justify-content:space-between;
+                    align-items:center;
+                    label{
+                        margin:0;
+                    }
+                    input{
+                        &:checked:before{
+                            background-color:#737373;
+                        }
+                        
+                        margin-right:5px;
+                    }
+                }
+                .auth--remember--option{
+                    span{
+                        &:hover{
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .auth--remember--option, .auth--bottom{
+                    color: #b3b3b3;
+                    font-size: 13px;
+                    font-weight:500;
+                }
+                .auth--bottom{
+                    font-size: 16px;
+                    font-weight: 500;
+                    h4{
+                        
+                        font-size: inherit;
+                        margin-top:16px;
+                    }
+                    .signup__btn{
+                        text-transform: capitalize;
+                        cursor: pointer;
+                        color:#fff;
+                        font-size: inherit;
+                        font-weight: inherit;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                    small{
+                        cursor: pointer;
+                        color:#0080ff;
+                        text-decoration: underline;
+                    }
+                    p{
+                        font-size: 13px;
+                        font-weight:300;
+                    }
+                }
+            }
+        }
+    }
+    #mainFooter{
+        background-color: rgba(0,0,0,0.75);
+        border-top: none;
+        margin-top: 60px;
+        @media screen and (max-width: 740px){
+            padding-top: 30px;
+            border-top: 2px solid var(--gray-clr);
+        }
+    }
+}
+//media
+@media screen and (max-width: 740px){
+    #authMain{
+        background-color: #000;
+        background-image: none;
+        .auth--body .auth--box{
+            width: 100%;
+            padding: 20px 5%;
+        }
+    } 
+}

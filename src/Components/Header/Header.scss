@@ -1,0 +1,57 @@
+.main--header {
+    position: absolute;
+    top:0;
+    left:0;
+    background: transparent;
+    z-index: 1400;
+    width:100%;
+    .header--inner{
+        padding: 27px 3.5rem 0;
+        width:100%;
+        justify-content:space-between;
+        align-items:center;
+        @media only screen and (max-width: 670px){
+            padding: 27px 5% 0;
+        }
+        .logo__main{
+            svg{
+                padding:0;
+                margin:0;
+                height:2.25rem;
+                width:8.375rem;
+            }
+            #netflix-logo{
+                fill:#e50914;
+                line-height: normal;
+                width: 134px;
+                height: 36px;
+                margin-right: 30px;
+                @media only screen and (max-width: 670px){
+                    width:88px;
+                    height:24px;
+                }
+            }
+            .logoImg{
+                width: 134px;
+                height: 36px;
+                margin-right: 30px;
+                vertical-align:center;
+                @media only screen and (max-width: 670px){
+                    width:88px;
+                    height:24px;
+                }
+            }
+        }
+        .footer--lang--selector{
+            padding: 7px;
+            border: 1px solid #aaa;
+            color :#fff;
+            svg{
+                margin-right: 2px;
+            }
+            select{
+                color :#fff;
+            }
+        }
+    }
+}

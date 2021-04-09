@@ -1,0 +1,40 @@
+#faqsContainer{
+    
+    .faq__card{
+        background-color: #303030;
+        display:block;
+        text-align:left;
+        margin: 0 0 13px 0;
+        color: #fff;
+        overflow: hidden;
+        .faq__card__header{
+            justify-content:space-between;
+            align-items:center;
+            width:100%;
+            overflow: hidden;
+            user-select:none;
+            h3{
+                font-size: inherit;
+                font-weight:inherit;
+            }
+            h3, span{
+                margin:0;
+                padding: 0;
+            }
+            span{
+                svg{
+                    font-weight: 300 !important;
+                }
+               
+            }
+            
+            border-bottom: 1px solid #000;
+        }
+    }
+    .faq__card__header, .faq__card__body{
+        padding: .6em 1.2em .6em 1.2em;
+        @media screen and (max-width: 770px) {
+            padding: .6em 0.7em .6em 1.2em;
+        }
+    }
+}

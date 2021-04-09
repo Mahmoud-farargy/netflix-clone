@@ -1,0 +1,18 @@
+.input__style{
+    height: 50px;
+    padding: 16px 20px 0;
+    line-height: 50px;
+    border-radius: 4px;
+    background-color:rgb(232, 240, 254);
+    background-image: none;
+    border:none;
+    width:100%;
+    margin-bottom: 14px;
+    &:focus{
+        outline:none;
+        background-color: rgb(210, 226, 252) !important;
+    }
+    &::placeholder{
+        text-transform: capitalize;
+    }
+}

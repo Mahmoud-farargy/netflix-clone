@@ -1,0 +1,113 @@
+[
+    {
+        "title" : "netflix originals",
+        "queries": {"type": "netflix_originals"},
+        "isLargeRow": true,
+        "id": "fsdoinpf"
+    },
+    {
+        "title" : "trending",
+        "queries": {"type": "trending", "mediaType": "movie", "timeWin": "week"},
+        "id": "fdsy8bfo"
+    },
+    {
+        "title" : "comedy",
+        "queries": {"type": "comedy_movies", "mediaType": "movie"},
+        "id": "e9w83unds"
+    },
+    {
+        "title" : "crime",
+        "queries": {"type": "crime", "mediaType": "movie"},
+        "id": "fsunofsfege"
+    },
+    {
+        "title" : "drama",
+        "queries": {"type": "drama", "mediaType": "movie"},
+        "id": "ff90e03ef"
+    },
+    {
+        "title" : "action",
+        "queries": {"type": "action_movies", "mediaType": "movie"},
+        "id": "ewr98eqond"
+    },
+    {
+        "title" : "top rated",
+        "queries": {"type": "topRated", "mediaType": "movie", "timeWin": "week", "query": "&languague=en-US"},
+        "id": "usf9noad"
+    },
+    {
+        "title" : "romance",
+        "queries": {"type": "romance_movies", "mediaType": "movie"},
+        "id": "sfoiubwef"
+    },
+    {
+        "title" : "horror",
+        "queries": {"type": "horror_movies", "mediaType": "movie"},
+        "id": "dofsiunlsd"
+    },
+    {
+        "title" : "adventure",
+        "queries": {"type": "adventure", "mediaType": "movie"},
+        "id": "9843tfifi"
+    },
+    {
+        "title" : "science",
+        "queries": {"type": "science_fiction", "mediaType": "movie"},
+        "id": "9fuye98fwss"
+    },
+    {
+        "title" : "mystery",
+        "queries": {"type": "mystery", "mediaType": "movie"},
+        "id": "fe0f9e7hfwf"
+    },
+    {
+        "title" : "family",
+        "queries": {"type": "family", "mediaType": "movie"},
+        "id": "f9wfw0ffwf9e"
+    },
+    {
+        "title" : "thriller",
+        "queries": {"type": "thriller", "mediaType": "movie"},
+        "id": "fs9f7wh93egg"
+    },
+    {
+        "title" : "war",
+        "queries": {"type": "war", "mediaType": "movie"},
+        "id": "f9efu90f"
+    },
+    {
+        "title" : "western",
+        "queries": {"type": "western", "mediaType": "movie"},
+        "id": "f08jrf3ef9g"
+    },
+    {
+        "title" : "music",
+        "queries": {"type": "music", "mediaType": "movie"},
+        "id": "fefuwh0fwe"
+    },
+    {
+        "title" : "fantasy",
+        "queries": {"type": "fantasy", "mediaType": "movie"},
+        "id": "f9efu9n0ef"
+    },
+    {
+        "title" : "tv",
+        "queries": {"type": "tv_movie", "mediaType": "movie"},
+        "id": "fe09unf9w"
+    },
+    {
+        "title" : "animation",
+        "queries": {"type": "animation", "mediaType": "movie"},
+        "id": "fu9nfe0ef"
+    },
+    {
+        "title" : "documentaries",
+        "queries": {"type": "documentaries_movies", "mediaType": "movie"},
+        "id": "f9efybwods"
+    },
+    {
+        "title" : "history",
+        "queries": {"type": "history", "mediaType": "movie"},
+        "id": "fsounfs898"
+    }
+]
